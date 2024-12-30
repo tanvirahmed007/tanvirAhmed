@@ -34,7 +34,16 @@ const Hero = () => {
                         variants={container(1)}
                         initial="hidden"
                         animate="visible"
-                        className="my-2 max-w-xl py-6 font-light tracking-tighter">{HERO_CONTENT}</motion.p>
+                        className="my-2 max-w-xl py-6 font-light tracking-tighter">{HERO_CONTENT}
+                        
+                    </motion.p>
+                    <a href="#">
+                        <button class="bg-gray-500 hover:bg-slate-900 text-white font-bold py-2 px-4 rounded">
+                                Download CV
+                        </button>
+                    </a>
+                    
+
                 </div>
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">

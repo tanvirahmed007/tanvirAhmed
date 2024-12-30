@@ -2,6 +2,8 @@ import logo from '../assets/kevinRushLogo.png';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
+import { SlGlobe } from "react-icons/sl";
+import { URL } from '../constants';
 
 
 const Navbar = () => {
@@ -11,9 +13,19 @@ const Navbar = () => {
             <img className="mx-2 w-10" src={logo} alt="Tanvir Ahmed"/>
         </div>
         <div className="flex items-center m-8 justify-center gap-4 text-2xl">
-            <FaGithub/>
-            <FaLinkedin/>
-            <FaInstagram/>
+            <a href={URL.GITHUB}>
+                <FaGithub/>
+            </a>
+            <a href="#">
+                <FaLinkedin/>
+            </a>
+            <a href="#">
+                <FaInstagram/>
+            </a>
+            <a href={URL.portfolio}>
+                <SlGlobe/>
+            </a>
+            
         </div>
     </nav>
   )
