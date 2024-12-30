@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from '../constants';
-import profilePic from '../assets/kevinRushProfile.png';
+import profilePic from '../assets/Tanvir.png';
 import {motion} from 'framer-motion';
 
 const container = (delay) => ({
@@ -29,7 +29,7 @@ const Hero = () => {
                         variants={container(0.5)}
                         initial="hidden"
                         animate="visible"
-                        className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">Software Engineer</motion.span>
+                        className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">Jr. Programmer</motion.span>
                     <motion.p 
                         variants={container(1)}
                         initial="hidden"
@@ -43,7 +43,7 @@ const Hero = () => {
                         initial={{ x: 100, opacity: 0 }}
                         animate={{ x: 0, opacity: 1 }}
                         transition={{ delay: 1, duration: 1.5 }}
-                        className="tanvir" src={profilePic} alt="Tanvir Ahmed"/>
+                        className="tanvir rounded" src={profilePic} alt="Tanvir Ahmed"/>
                 </div>
             </div>
         </div>
