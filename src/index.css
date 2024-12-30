@@ -1,94 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400..700&family=Quicksand:wght@300..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html{
-  scroll-behavior: smooth;
+:root {
+  font-family: 'Quicksand', sans-serif;
 }
 
-body{
-  @apply bg-zinc-900 text-zinc-50
-}
-
-/* components */
-/* Menu btn */
-.menu-btn{
-  @apply w-10 h-10 grid place-items-center bg-zinc-50/10 rounded-xl ring-inset ring-1 
-  ring-zinc-50/[0.02] backdrop-blur-2xl hover:bg-zinc-50/15 transition-[transform,background-color]
-  active:scale-95
-}
-
-
-/* Navbar */
-.navbar{
-  @apply absolute top-full mt-2 right-0 min-w-40 p-2 bg-zinc-50/10 rounded-xl ring-1 ring-zinc-50/5
-  scale-90 isolate blur-sm opacity-0 invisible transition-[opacity,transform,filter]
-  md:flex md:static md:scale-100 md:blur-0 md:opacity-100 md:visible
-}
-.relative{
-  @apply top-2 right-0 min-w-40 scale-90
-  
-}
-
-.navbar.active{
-  @apply opacity-100 scale-100 blur-0 visible
-}
-.navbaractive{
-  @apply mt-1 bg-zinc-50/10 rounded-2xl ring-inset ring-1 ring-zinc-50/5
-}
-
-.nav-link{
-  @apply grid items-center h-9 px-4 text-sm font-medium tracking-wide text-zinc-50/50 hover:text-zinc-50
-  transition-colors
-}
-
-.nav-link.active{
-  @apply text-zinc-900 duration-500
-}
-
-.navbar .active-box{
-  @apply absolute bg-zinc-50 rounded-lg -z-10 transition-[top,left] duration-500
-}
-
-
-
-@media only screen and (max-width: 700px){
-  .menu-btn{
-    @apply w-10 h-10 grid place-items-center bg-zinc-50/10 rounded-xl ring-inset ring-1 
-    ring-zinc-50/[0.02] backdrop-blur-2xl hover:bg-zinc-50/15 transition-[transform,background-color]
-    active:scale-95
-  }
-  
-  
-  /* Navbar */
-  .navbar{
-    @apply absolute top-full mt-3 right-0 min-w-40 p-2 bg-zinc-50/10 rounded-xl ring-1 ring-zinc-50/5
-    scale-90 isolate blur-sm opacity-0 invisible transition-[opacity,transform,filter]
-    md:flex md:static md:scale-100 md:blur-0 md:opacity-100 md:visible
-  }
-  .relative{
-    @apply absolute top-2 right-0 min-w-40 scale-90
-    
-  }
-  
-  .navbar.active{
-    @apply opacity-100 scale-100 blur-0 visible
-  }
-  .navbaractive{
-    @apply mt-1 bg-zinc-50/10 rounded-2xl ring-inset ring-1 ring-zinc-50/5
-  }
-  
-  .nav-link{
-    @apply grid items-center h-9 px-4 text-sm font-medium tracking-wide text-zinc-50/50 hover:text-zinc-50
-    transition-colors
-  }
-  
-  .nav-link.active{
-    @apply text-zinc-900 duration-500
-  }
-  
-  .navbar .active-box{
-    @apply absolute bg-zinc-50 rounded-lg -z-10 transition-[top,left] duration-500
-  }
-  
-}
