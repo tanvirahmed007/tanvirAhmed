@@ -13,13 +13,13 @@ const Navbar = () => {
             <img className="mx-2 w-10" src={logo} alt="Tanvir Ahmed"/>
         </div>
         <div className="flex items-center m-8 justify-center gap-4 text-2xl">
-            <a href={URL.GITHUB}>
+            <a href={URL.github}>
                 <FaGithub/>
             </a>
-            <a href="#">
+            <a href={URL.linkedin}>
                 <FaLinkedin/>
             </a>
-            <a href="#">
+            <a href={URL.instagram}>
                 <FaInstagram/>
             </a>
             <a href={URL.portfolio}>

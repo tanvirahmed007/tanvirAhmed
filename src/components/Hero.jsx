@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from '../constants';
 import profilePic from '../assets/Tanvir.png';
 import {motion} from 'framer-motion';
+import { URL } from '../constants';
 
 const container = (delay) => ({
     hidden: { x: -100, opacity: 0 },
@@ -37,7 +38,7 @@ const Hero = () => {
                         className="my-2 max-w-xl py-6 font-light tracking-tighter">{HERO_CONTENT}
                         
                     </motion.p>
-                    <a href="#">
+                    <a href={URL.cv}>
                         <button class="bg-gray-500 hover:bg-slate-900 text-white font-bold py-2 px-4 rounded">
                                 Download CV
                         </button>

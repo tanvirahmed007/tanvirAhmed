@@ -3,7 +3,7 @@ import project1 from "../assets/projects/project-1.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills technologies like React.Js, Angular.js and ASP.NET Core.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including React.js, Angular.js, Node.js, SQL Server, ASP.NET Core, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2 years of professional experience, I have worked with a variety of technologies, including React.js, Angular.js, Node.js, SQL Server, Oracle, ASP.NET Core, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies.`;
 
 export const EXPERIENCES = [
   {
@@ -48,7 +48,8 @@ export const CONTACT = {
 
 export const URL = {
   github: "https://github.com/tanvirahmed007",
-  linkedin: "01643257542",
-  instagram: "thisistanvirmail@gmail.com",
+  linkedin: "https://www.linkedin.com/in/tanvir-ahmed-3b8a811a4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  instagram: "https://www.instagram.com/____t_a_n_v_i_r____?igsh=b3htd3JmMXBtOTNi",
   portfolio: "https://tanvir-ahmed.vercel.app/",
+  cv: "https://drive.google.com/drive/folders/19c9UVy-w-s4oLEfJEdDoFRSdefttcv8T",
 };
